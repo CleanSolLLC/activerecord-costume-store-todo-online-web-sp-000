@@ -1,7 +1,7 @@
-class ChangeCostumeColumnName < ActiveRecord::Migration[4.2]
+class ChangeCostumeStoreColumnName < ActiveRecord::Migration[4.2]
 
   def change 
-    change_table :costumes do |t|
+    change_table :costume_stores do |t|
       t.rename :image, :image_url
     end
   end
