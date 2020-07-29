@@ -1,4 +1,4 @@
-class ChangeUrlColumnName < ActiveRecord::Migration[4.2]
+class AddColumnNameToCostumes < ActiveRecord::Migration[4.2]
 
   def change 
     change_table :costumes do |t|
