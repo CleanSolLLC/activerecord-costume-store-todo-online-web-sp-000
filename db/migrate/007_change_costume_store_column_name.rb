@@ -2,7 +2,8 @@ class ChangeCostumeStoreColumnName < ActiveRecord::Migration[4.2]
 
   def change 
     change_table :costume_stores do |t|
-      t.rename :image, :image_url
+      t.rename :start_time, :opening_time
+      t.rename :
     end
   end
   
